@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: AUD
+  name: Австралийский доллар
+  rate: 42.2699
+  measure_date: 2020-01-22
+
+two:
+  code: GBP
+  name:  Фунт стерлингов Соединенного королевства
+  rate: 80.6752
+  measure_date: 2020-01-22
+
+three:
+  code: USD
+  name: Доллар США
+  rate: 61.8343
+  measure_date: 2020-01-22
