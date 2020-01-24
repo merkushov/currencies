@@ -26,8 +26,15 @@ class Api::V1::CurrenciesController < Api::V1::BaseController
   end
 
   def show
-    c = Currency.find_by( code: params[:code], measure_date: @measure_date )
-    render json: c
+    currency = Currency.find_by(
+      code: params[:code],
+      measure_date: @measure_date
+    )
+    if currency
+      render json: currency
+    else
+      render :json => {:error => "Not Found"}, :status => :not_found
+    end
   end
 
   private

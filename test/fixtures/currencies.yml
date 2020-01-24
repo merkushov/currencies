@@ -8,7 +8,7 @@ one:
 
 two:
   code: GBP
-  name:  Фунт стерлингов Соединенного королевства
+  name: Фунт стерлингов Соединенного королевства
   rate: 80.6752
   measure_date: 2020-01-22
 
@@ -17,3 +17,75 @@ three:
   name: Доллар США
   rate: 61.8343
   measure_date: 2020-01-22
+
+four:
+  code: AUD
+  name: Австралийский доллар
+  rate: 42.1981
+  measure_date: 2020-01-23
+
+five:
+  code: GBP
+  name: Фунт стерлингов Соединенного королевства
+  rate: 81.0127
+  measure_date: 2020-01-23
+
+six:
+  code: USD
+  name: Доллар США
+  rate: 61.8412
+  measure_date: 2020-01-23
+
+seven:
+  code: PLN
+  name: Польский злотый
+  rate: 16.162
+  measure_date: 2020-01-23
+
+eight:
+  code: RON
+  name: Румынский лей
+  rate: 14.3334
+  measure_date: 2020-01-23
+
+nine:
+  code: SGD
+  name: Сингапурский доллар
+  rate: 45.8168
+  measure_date: 2020-01-23
+
+ten:
+  code: TJS
+  name: Таджикских сомони
+  rate: 63.7796
+  measure_date: 2020-01-23
+
+eleven:
+  code: TRY
+  name: Турецкая лира
+  rate: 10.4168
+  measure_date: 2020-01-23
+
+twelv:
+  code: TMT
+  name: Новый туркменский манат
+  rate: 17.6922
+  measure_date: 2020-01-23
+
+thirteen:
+  code: UZS
+  name: Узбекских сумов
+  rate: 64.768
+  measure_date: 2020-01-23
+
+fourteen:
+  code: UAH
+  name: Украинских гривен
+  rate: 25.4328
+  measure_date: 2020-01-23
+
+fifteen:
+  code: CZK
+  name: Чешских крон
+  rate: 27.2746
+  measure_date: 2020-01-23
