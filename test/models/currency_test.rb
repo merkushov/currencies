@@ -20,6 +20,7 @@ class CurrencyTest < ActiveSupport::TestCase
 
   test "should not save article without required fields" do
     obj = Currency.new
-    assert_not obj.save, "Saved the currency without a code and name"
+    assert_not obj.save,
+      "Saved the currency unsuccessful without a code and name"
   end
 end

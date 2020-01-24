@@ -80,6 +80,9 @@ class Api::V1::CurrenciesControllerTest < ActionDispatch::IntegrationTest
     assert_equal currency.rate.to_s, response.parsed_body["rate"],
       "Rate as expected"
 
+    assert_equal currency.code.to_s, response.parsed_body["code"],
+      "Code as expected"
+
     get '/api/currency/FAKE', params: { date: measure_date },
       headers: { 'HTTP_AUTHORIZATION' => authorization }
     assert_equal 404, status, "404 NotFound"
